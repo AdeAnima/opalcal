@@ -1,8 +1,11 @@
-> [!WARNING]  
-> Use at your own risk. Cal.diy is the open source community edition of Cal.com and it is intended for users who want to self-host their own Cal.diy instance. It is strictly recommended for personal, non-production use. Please review all installation and configuration steps carefully. Self-hosting requires advanced knowledge of server administration, database management, and securing sensitive data. Proceed only if you are comfortable with these responsibilities.
+> [!NOTE]
+> This is **Opal**, a fork of [cal.diy](https://github.com/calcom/cal.diy) by Martin Westphal for the Ade Anima team. Opal builds on the open source community edition of Cal.com. Credit for the upstream platform belongs to the Cal.com team and the cal.diy community.
+
+> [!WARNING]
+> Use at your own risk. Opal is a self-hosted fork intended for our internal scheduling needs. Self-hosting requires advanced knowledge of server administration, database management, and securing sensitive data. Review all installation and configuration steps carefully before deploying.
 
 > [!TIP]
-> For any commercial and enterprise-ready scheduling infrastructure, use Cal.com, not Cal.diy; hosted by us or get invited to on-prem enterprise access here: <a href="https://cal.com/sales">https://cal.com/sales</a>
+> For commercial, enterprise-ready scheduling infrastructure, use Cal.com directly: <a href="https://cal.com/sales">https://cal.com/sales</a>
 
 <!-- PROJECT LOGO -->
 <p align="center">
@@ -10,10 +13,10 @@
    <img src="https://user-images.githubusercontent.com/8019099/210054112-5955e812-a76e-4160-9ddd-58f2c72f1cce.png" alt="Logo">
   </a>
 
-  <h3 align="center">Cal.diy</h3>
+  <h3 align="center">Opal</h3>
 
   <p align="center">
-    The community-driven, open-source scheduling platform.
+    Scheduling for the Ade Anima team — a fork of cal.diy.
     <br />
     <a href="https://github.com/calcom/cal.diy"><strong>GitHub</strong></a>
     <br />

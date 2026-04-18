@@ -1,6 +1,6 @@
 {
-  "name": "Cal.diy",
-  "description": "Open Source Scheduling",
+  "name": "Opal",
+  "description": "Opal — Scheduling for your team",
   "repository": "https://github.com/calcom/cal.diy",
   "logo": "https://cal.com/android-chrome-512x512.png",
   "keywords": ["react", "typescript", "node", "nextjs", "prisma", "postgres", "trpc"],
