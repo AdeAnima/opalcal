@@ -20,9 +20,9 @@ Playbook for agents interacting with Opal's GitHub Project via `gh` CLI. Read th
 
 **Hard rule:** never create GitHub projects, issues, labels, milestones, or repos in the `h&w` or `alphalist` orgs. Opal lives in `AdeAnima/opalcal` only.
 
-### Legacy archive (read-only)
+### Legacy code reference
 
-The pre-fork custom codebase is at `AdeAnima/opalcal-legacy` with its own closed Project #2 (`PVT_kwHOAYLQYc4BU1t6`, 74 items). Issues there are preserved for historical context. Do not reopen — instead create a fresh issue in this repo and reference the legacy one (e.g. `migrated from opalcal-legacy#37`).
+The pre-fork custom codebase still lives at `AdeAnima/opalcal-legacy` for historical reference (research notes, design docs, the CalDAV sync engine prototype). Its GitHub Project was deleted on 2026-04-18 — all items still relevant to the cal.diy fork have been re-created in this project (look for `migrated from opalcal-legacy#N` in the body). Code-only history remains accessible via the legacy repo.
 
 ---
 
@@ -231,4 +231,4 @@ When creating or updating an issue:
 
 ## Changelog
 
-- **2026-04-18** — Migrated from `opalcal-legacy` to this repo. New project #3 (`PVT_kwHOAYLQYc4BU7dQ`) supersedes legacy #2. Closed fork-bootstrap issues #2/#3/#4/#6 (rebrand, GHCR, CI, deploy — all done as of commits cb4848035e and 6624276bc4). Added 24 new issues: 6 future-vision (tiered UI, templates, onboarding, AI agent, MCP, CLI), 3 deferred decisions (bun, Better Auth, passkeys), 3 tech-debt (Docker cache, app-store trim, designed wordmark), 12 differentiating features migrated from legacy (calendar overlay, polls, mutual overlay, group solver, standing groups, SwiftUI app, App Clip, migration guides, analytics, SMS, web-component embed, deposit holds).
+- **2026-04-18** — Migrated from `opalcal-legacy` to this repo. New project #3 (`PVT_kwHOAYLQYc4BU7dQ`) replaces legacy #2 (deleted). Closed fork-bootstrap issues #2/#3/#4/#6 (rebrand, GHCR, CI, deploy — all done as of commits cb4848035e and 6624276bc4). Added 41 new issues: 6 future-vision (tiered UI, templates, onboarding, AI agent, MCP, CLI), 3 deferred decisions (bun, Better Auth, passkeys), 3 tech-debt (Docker cache, app-store trim, designed wordmark), and 29 features migrated from legacy spanning scheduling (overlay, polls, mutual/group/standing solvers), platform (SwiftUI, App Clip, web-component embed), payments (deposit holds, retry states, Stripe Connect), security (Turnstile, audit trails, source-available license), observability (dashboards, alerts, heatmap), and ops (managed event types, host-side change detection, billing placeholder, Opal GitHub org).
