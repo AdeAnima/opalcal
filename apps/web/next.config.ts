@@ -230,7 +230,6 @@ const nextConfig = (phase: string): NextConfig => {
       "superagent-proxy",
       "superagent",
       "formidable",
-      "@boxyhq/saml-jackson",
       "jose",
     ],
     experimental: {

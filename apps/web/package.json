@@ -31,7 +31,6 @@
     "yarn": "3.4.1"
   },
   "dependencies": {
-    "@boxyhq/saml-jackson": "1.52.2",
     "@calcom/app-store": "workspace:*",
     "@calcom/app-store-cli": "workspace:*",
     "@calcom/dayjs": "workspace:*",
